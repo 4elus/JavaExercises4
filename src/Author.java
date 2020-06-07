@@ -29,6 +29,7 @@ public class Author {
     }
 
     public String toString() {
-        return name + " (" + gender + ") at " + email;
+       //Ivan Ivanov Teck (m) i.ivanov@somewhere.com
+        return name + " (" + gender + ") " + email;
     }
 }
